@@ -20,3 +20,11 @@ The Floyd's Triangle looks like this:
  92  93  94  95  96  97  98  99 100 101 102 103 104 105        14
 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120    15
 ```
+Here are the rules:
+1. The first row is row number 1.
+1. Each row has the same number of elements as the row number.
+1. The first element (in the first row) is 1.
+1. Each element is numbered successively over the entire triangle.
+1. The last element on any row is calculated by: row * (row + 1) / 2
+1. Each cell is the width of the largest number plus 1.
+1. The numbers in each cell are right-justified
